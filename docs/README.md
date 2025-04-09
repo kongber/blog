@@ -9,7 +9,7 @@ config:
     hero:
       name: Kongber
       tagline: kongber's thoughts
-      text: 杂想
+      text: 从日常浮沫 提炼出人生真意。
       actions:
           theme: alt
           text: Github →
