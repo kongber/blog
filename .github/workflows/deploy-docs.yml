@@ -47,3 +47,5 @@ jobs:
           # 这是文档部署到的分支名称
           branch: gh-pages
           folder: docs/.vuepress/dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
