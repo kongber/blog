@@ -8,7 +8,7 @@ config:
     background: tint-plate
     hero:
       name: Kongber
-      tagline: Kongber Blog
+      tagline: kongber's thoughts
       text: 杂想
       actions:
           theme: alt
