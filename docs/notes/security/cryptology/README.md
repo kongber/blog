@@ -6,3 +6,4 @@ permalink: /security/cryptology/
 
 - [bar](./bar.md)
 - [foo](./foo.md)
+- [homomorphic](./homomorphic.md)
