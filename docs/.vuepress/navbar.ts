@@ -38,7 +38,7 @@ export const navbar = defineNavbarConfig([
       { text: '安全基础', link: '/notes/security/basics/' },
       { text: '身份认证', link: '/notes/security/authentication/' },
       { text: '访问控制', link: '/notes/security/access-control/' },
-      { text: '密码学', link: '/notes/security/cryptography/' },
+      { text: '密码学', link: '/notes/security/cryptology/' },
       { text: '网络安全', link: '/notes/security/network/' },
       { text: '应用安全', link: '/notes/security/application/' },
       { text: '安全运维', link: '/notes/security/operations/' },
