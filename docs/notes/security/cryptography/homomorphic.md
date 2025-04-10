@@ -1,7 +1,7 @@
 ---
 title: 同态加密：原理与应用
 createTime: 2024/01/10
-permalink: /security/cryptography/homomorphic/
+permalink: /security/cryptography/
 ---
 
 # 同态加密：原理与应用
