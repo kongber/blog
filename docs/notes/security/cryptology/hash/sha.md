@@ -1,22 +1,8 @@
 ---
-title: MD5/SHA家族
-createTime: 2024/01/10
-permalink: /article/akmwzprs/
+title: sha
+createTime: 2025/04/11 15:20:24
+permalink: /article/0qj2v8sr/
 ---
-
-# MD5/SHA哈希算法家族
-
-## MD5 (Message Digest Algorithm 5)
-
-### 基本特征
-- 输出长度：128位（16字节）
-- 块大小：512位
-- 轮数：64轮（4组，每组16轮）
-
-### 安全性
-- 已被证明不安全
-- 存在碰撞攻击
-- 不建议用于安全场景
 
 ## SHA-1 (Secure Hash Algorithm 1)
 
