@@ -1,6 +1,7 @@
 ---
 title: 身份基加密
 createTime: 2024/01/10
+permalink: /article/ivrqxq9y/
 ---
 
 # 身份基加密（Identity-Based Encryption）

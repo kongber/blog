@@ -1,6 +1,7 @@
 ---
 title: 工作模式
 createTime: 2024/01/10
+permalink: /article/vl4vftvf/
 ---
 
 # 分组密码工作模式

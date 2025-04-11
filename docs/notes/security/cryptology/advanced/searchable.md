@@ -1,6 +1,7 @@
 ---
 title: 可搜索加密
 createTime: 2024/01/10
+permalink: /article/1urtytbu/
 ---
 
 # 可搜索加密

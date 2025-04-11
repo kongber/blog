@@ -1,6 +1,7 @@
 ---
 title: MD5/SHA家族
 createTime: 2024/01/10
+permalink: /article/akmwzprs/
 ---
 
 # MD5/SHA哈希算法家族

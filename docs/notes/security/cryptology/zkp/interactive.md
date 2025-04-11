@@ -1,6 +1,7 @@
 ---
 title: 交互式证明
 createTime: 2024/01/10
+permalink: /article/l3zr3cfv/
 ---
 
 # 交互式零知识证明

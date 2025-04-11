@@ -1,6 +1,7 @@
 ---
 title: 量子密钥分发
 createTime: 2024/01/10
+permalink: /article/4gv2ia5r/
 ---
 
 # 量子密钥分发（QKD）

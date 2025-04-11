@@ -1,6 +1,7 @@
 ---
 title: 流密码
 createTime: 2024/01/10
+permalink: /article/3rcbatgw/
 ---
 
 # 流密码

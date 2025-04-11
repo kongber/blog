@@ -1,6 +1,7 @@
 ---
 title: RSA算法
 createTime: 2024/01/10
+permalink: /article/kv4a1scd/
 ---
 
 # RSA算法

@@ -1,6 +1,7 @@
 ---
 title: ECC椭圆曲线
 createTime: 2024/01/10
+permalink: /article/inmfcyrh/
 ---
 
 # ECC椭圆曲线密码学

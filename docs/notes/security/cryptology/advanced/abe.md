@@ -1,6 +1,7 @@
 ---
 title: 属性基加密
 createTime: 2024/01/10
+permalink: /article/vvfbibjn/
 ---
 
 # 属性基加密（Attribute-Based Encryption）

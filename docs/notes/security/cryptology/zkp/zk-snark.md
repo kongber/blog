@@ -1,6 +1,7 @@
 ---
 title: zk-SNARK
 createTime: 2024/01/10
+permalink: /article/75s4mt1i/
 ---
 
 # zk-SNARK

@@ -1,6 +1,7 @@
 ---
 title: 后量子密码
 createTime: 2024/01/10
+permalink: /article/qt7vdmt9/
 ---
 
 # 后量子密码

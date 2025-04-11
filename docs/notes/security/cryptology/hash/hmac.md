@@ -1,6 +1,7 @@
 ---
 title: HMAC
 createTime: 2024/01/10
+permalink: /article/pzbfbr5c/
 ---
 
 # HMAC (Hash-based Message Authentication Code)

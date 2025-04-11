@@ -1,6 +1,7 @@
 ---
 title: SM3
 createTime: 2024/01/10
+permalink: /article/qfz8icd6/
 ---
 
 # SM3密码杂凑算法

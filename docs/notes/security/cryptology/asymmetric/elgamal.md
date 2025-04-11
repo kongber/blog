@@ -1,6 +1,7 @@
 ---
 title: ElGamal加密
 createTime: 2024/01/10
+permalink: /article/4u55u2ar/
 ---
 
 # ElGamal加密系统

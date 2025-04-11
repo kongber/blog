@@ -1,6 +1,7 @@
 ---
 title: 分组密码
 createTime: 2024/01/10
+permalink: /article/hyrb0318/
 ---
 
 # 分组密码

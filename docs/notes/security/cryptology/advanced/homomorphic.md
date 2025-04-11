@@ -1,6 +1,7 @@
 ---
 title: 同态加密
 createTime: 2024/01/10
+permalink: /article/h3zqqzjq/
 ---
 
 # 同态加密

@@ -1,6 +1,7 @@
 ---
 title: DH密钥交换
 createTime: 2024/01/10
+permalink: /article/rvqjrh40/
 ---
 
 # DH密钥交换协议

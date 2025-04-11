@@ -1,6 +1,7 @@
 ---
 title: 非交互式证明
 createTime: 2024/01/10
+permalink: /article/hgmmj0ya/
 ---
 
 # 非交互式零知识证明
