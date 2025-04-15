@@ -14,16 +14,10 @@
   - 国家标准
     - 算法标准
       - [[GB/T 35276-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56B826C0E053749B936D57F0)] 信息安全技术 SM2椭圆曲线公钥密码算法
-      - [[GB/T 32905-2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5C75D8E8F89F3E8EE053749B936D4E8C)] 信息安全技术 SM3密码杂凑算法
-      - [[GB/T 32907-2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5C75D8E8F8B63E8EE053749B936D4E8C)] 信息安全技术 SM4分组密码算法
-      - [[GB/T 35291-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56CF26C0E053749B936D57F0)] 信息安全技术 SM9标识密码算法
-      - [[GB/T 33133.1—2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715)] 信息安全技术 祖冲之序列密码算法 第1部分：算法描述
-    - 密码模块
-      - [[GB/T 35278-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56C826C0E053749B936D57F0)] 信息安全技术 密码模块安全要求
+    
 
-
-| **标准编号**                                                 | **标准名称**                                                 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **标准编号**         | **标准名称**                                                 |
+| ------------------- | ------------------------------------------------------------ |
 | [GB/T 33133.1—2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) | [信息安全技术 祖冲之序列密码算法 第1部分：算法描述](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) |
 | [GB/T 33133.2—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) | [信息安全技术 祖冲之序列密码算法 第2部分：保密性算法](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) |
 | [GB/T 33133.3—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) | [信息安全技术 祖冲之序列密码算法 第3部分：完整性算法](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) |
@@ -109,7 +103,7 @@
 | [GB/T 17901.3—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=DD7D91A364BC9B2E05542908D16B669E) | [信息技术 安全技术 密钥管理 第3 部分：采用非对称技术的机制](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=DD7D91A364BC9B2E05542908D16B669E) |
 | [GB/T 25061—2020](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=AA71B742D482B75CF0B3C068CC70A317) | [信息安全技术 XML数字签名语法与处理规范](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=AA71B742D482B75CF0B3C068CC70A317) |
 | [GB/T 38636—2020](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=778097598DA2761E94A5FF3F77BD66DA) | [信息安全技术 传输层密码协议（TLCP）](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=778097598DA2761E94A5FF3F77BD66DA) |
-| [GB/T 38647.1—2020](http://xn--   1:-hc3r42nopcgiv1oc5da7656an2av53ef6aw16afa919pzvkga1044l26bby9y/) | [信息技术 安全技术 匿名数字签名 第1部分：总则](http://xn--   1:-hc3r42nopcgiv1oc5da7656an2av53ef6aw16afa919pzvkga1044l26bby9y/) |
+| [GB/T 38647.1—2020]() | [信息技术 安全技术 匿名数字签名 第1部分：总则]() |
 | [GB/T 38647.2—2020](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=40F2EA1048157B7DC6B05DB764D1236D) | [信息技术 安全技术 匿名数字签名 第2部分：采用群组公钥的机制](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=40F2EA1048157B7DC6B05DB764D1236D) |
 | [GB/T 17903.2—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=51288A976D05E27D519B1591721DCA3E) | [信息技术 安全技术 抗抵赖 第2 部分：采用对称技术的机制](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=51288A976D05E27D519B1591721DCA3E) |
 | [GB/T 17964—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=4F89D833626340B1F71068D25EAC737D) | [分组密码算法的工作模式](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=4F89D833626340B1F71068D25EAC737D) |
@@ -123,6 +117,7 @@
 | [GB/T 43207—2023](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=851A7FC4DDC2F6E9BE2677127863CCF8) | [信息安全技术 信息系统密码应用设计指南](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=851A7FC4DDC2F6E9BE2677127863CCF8) |
 | [GB/T 45230—2025](https://std.samr.gov.cn/gb/search/gbDetailed?id=2D5D2D0FF76731E0E06397BE0A0A126F) | [数据安全技术 机密计算通用框架](https://std.samr.gov.cn/gb/search/gbDetailed?id=2D5D2D0FF76731E0E06397BE0A0A126F) |
 | [GB/T 19713—2025](https://std.samr.gov.cn/gb/search/gbDetailed?id=2FF37940EAA4D753E06397BE0A0A413F) | [网络安全技术 公钥基础设施 在线证书状态协议](https://std.samr.gov.cn/gb/search/gbDetailed?id=2FF37940EAA4D753E06397BE0A0A413F) |
+
 
 ## 参考资料
 
