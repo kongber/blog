@@ -12,7 +12,17 @@
 	    - [NIST后量子密码标准化项目](https://csrc.nist.gov/projects/post-quantum-cryptography)
 	    - [中国量子密码标准GM/T 0010-2012](http://www.sca.gov.cn/sca/xxgk/2012-12/17/content_1942394.shtml)
   - 国家标准
-  | **标准编号**                                                 | **标准名称**                                                 |
+    - 算法标准
+      - [[GB/T 35276-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56B826C0E053749B936D57F0)] 信息安全技术 SM2椭圆曲线公钥密码算法
+      - [[GB/T 32905-2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5C75D8E8F89F3E8EE053749B936D4E8C)] 信息安全技术 SM3密码杂凑算法
+      - [[GB/T 32907-2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5C75D8E8F8B63E8EE053749B936D4E8C)] 信息安全技术 SM4分组密码算法
+      - [[GB/T 35291-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56CF26C0E053749B936D57F0)] 信息安全技术 SM9标识密码算法
+      - [[GB/T 33133.1—2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715)] 信息安全技术 祖冲之序列密码算法 第1部分：算法描述
+    - 密码模块
+      - [[GB/T 35278-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56C826C0E053749B936D57F0)] 信息安全技术 密码模块安全要求
+
+
+| **标准编号**                                                 | **标准名称**                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [GB/T 33133.1—2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) | [信息安全技术 祖冲之序列密码算法 第1部分：算法描述](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) |
 | [GB/T 33133.2—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) | [信息安全技术 祖冲之序列密码算法 第2部分：保密性算法](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) |
@@ -113,14 +123,6 @@
 | [GB/T 43207—2023](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=851A7FC4DDC2F6E9BE2677127863CCF8) | [信息安全技术 信息系统密码应用设计指南](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=851A7FC4DDC2F6E9BE2677127863CCF8) |
 | [GB/T 45230—2025](https://std.samr.gov.cn/gb/search/gbDetailed?id=2D5D2D0FF76731E0E06397BE0A0A126F) | [数据安全技术 机密计算通用框架](https://std.samr.gov.cn/gb/search/gbDetailed?id=2D5D2D0FF76731E0E06397BE0A0A126F) |
 | [GB/T 19713—2025](https://std.samr.gov.cn/gb/search/gbDetailed?id=2FF37940EAA4D753E06397BE0A0A413F) | [网络安全技术 公钥基础设施 在线证书状态协议](https://std.samr.gov.cn/gb/search/gbDetailed?id=2FF37940EAA4D753E06397BE0A0A413F) |
-    - 算法标准
-      - [[GB/T 35276-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56B826C0E053749B936D57F0)] 信息安全技术 SM2椭圆曲线公钥密码算法
-      - [[GB/T 32905-2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5C75D8E8F89F3E8EE053749B936D4E8C)] 信息安全技术 SM3密码杂凑算法
-      - [[GB/T 32907-2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5C75D8E8F8B63E8EE053749B936D4E8C)] 信息安全技术 SM4分组密码算法
-      - [[GB/T 35291-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56CF26C0E053749B936D57F0)] 信息安全技术 SM9标识密码算法
-      - [[GB/T 33133.1—2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715)] 信息安全技术 祖冲之序列密码算法 第1部分：算法描述
-    - 密码模块
-      - [[GB/T 35278-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56C826C0E053749B936D57F0)] 信息安全技术 密码模块安全要求
 
 ## 参考资料
 
