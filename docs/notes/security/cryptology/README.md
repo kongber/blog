@@ -3,12 +3,10 @@
 ## 1. 基础密码学
 
 ### 1.1 分组密码
-- 国际算法
-    - [DES](./symmetric/des.md)
-    - [3DES](./symmetric/3des.md)
-    - [AES](./symmetric/aes.md)
-- 国内算法
-    - [SM4](./symmetric/sm4.md)
+- [DES](./symmetric/des.md)
+- [3DES](./symmetric/3des.md)
+- [AES](./symmetric/aes.md)
+- [SM4](./symmetric/sm4.md)
 
 ### 1.2 分组密码模式
 - [ECB](./symmetric/ecb.md)
@@ -23,21 +21,19 @@
 - [ChaCha20-流密码](./symmetric/chacha20.md)
 
 ### 1.4 非对称密码
-- 国际算法
-    - [RSA算法](./asymmetric/rsa.md)
-    - [ECC椭圆曲线](./asymmetric/ecc.md)
-    - [DH密钥交换](./asymmetric/dh.md)
-    - [ElGamal加密](./asymmetric/elgamal.md)
-- 国内算法
-    - [SM2](./asymmetric/sm2.md)
-    - [SM9](./asymmetric/sm9.md)
+- [RSA算法](./asymmetric/rsa.md)
+- [ECC椭圆曲线](./asymmetric/ecc.md)
+- [DH密钥交换](./asymmetric/dh.md)
+- [ElGamal加密](./asymmetric/elgamal.md)
+
+- [SM2](./asymmetric/sm2.md)
+- [SM9](./asymmetric/sm9.md)
 
 ### 1.5 哈希函数
-- 国际算法
-    - [MD5](./hash/md5.md)
-    - [SHA](./hash/sha.md)
-- 国内算法
-    - [SM3](./hash/sm3.md)
+- [MD5](./hash/md5.md)
+- [SHA](./hash/sha.md)
+
+- [SM3](./hash/sm3.md)
 
 ### 1.6 消息认证码
 - [HMAC](./mac/hmac.md)
