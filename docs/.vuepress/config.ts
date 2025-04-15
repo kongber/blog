@@ -147,13 +147,19 @@ export default defineUserConfig({
      * 水印
      * @see https://theme-plume.vuejs.press/guide/features/watermark/
      */
-    watermark: true,
+    watermark: {
+ /**
+       * 是否全屏水印，默认为 `true`，
+       * 设置为 `false` 时，水印仅在 内容区域中显示。
+       */
+      fullPage: true,
 
-    watermarkOptions: {
+      /** @see https://zhensherlock.github.io/watermark-js-plus/zh/config/ */
+      watermarkOptions: {
+        content: 'kong',
+      }
+    },
 
-      content: 'kong',
-      // ...
-    }
     /**
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
