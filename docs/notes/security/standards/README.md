@@ -1,23 +1,12 @@
 # 标准规范
 
-本章节主要介绍信息安全相关的标准规范，包括：
+本章节主要介绍信息安全相关的标准规范
 
+# 密码算法标准
 
-- 密码算法标准
-	- 国际标准
-	  - [FIPS 140-3 密码模块安全要求](https://csrc.nist.gov/publications/detail/fips/140/3/final)
-	  - [FIPS 180-4 安全哈希标准](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf)
-	  - [FIPS 186-5 数字签名标准](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf)
-	  - 量子密码标准
-	    - [NIST后量子密码标准化项目](https://csrc.nist.gov/projects/post-quantum-cryptography)
-	    - [中国量子密码标准GM/T 0010-2012](http://www.sca.gov.cn/sca/xxgk/2012-12/17/content_1942394.shtml)
-  - 国家标准
-    - 算法标准
-      - [[GB/T 35276-2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=76A43DAC56B826C0E053749B936D57F0)] 信息安全技术 SM2椭圆曲线公钥密码算法
-    
-
-| **标准编号**         | **标准名称**                                                 |
-| ------------------- | ------------------------------------------------------------ |
+## 国家标准
+| **标准编号**            | **标准名称**                                                 |
+| ---------------------- | ------------------------------------------------------------ |
 | [GB/T 33133.1—2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) | [信息安全技术 祖冲之序列密码算法 第1部分：算法描述](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) |
 | [GB/T 33133.2—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) | [信息安全技术 祖冲之序列密码算法 第2部分：保密性算法](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) |
 | [GB/T 33133.3—2021](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) | [信息安全技术 祖冲之序列密码算法 第3部分：完整性算法](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D3CBA3ADEC7989344BD1E63006EF2B3) |
