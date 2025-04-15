@@ -2,9 +2,8 @@
 
 本章节主要介绍信息安全相关的标准规范
 
-# 1. 密码算法标准
-
-## 1.1 国家标准
+## 1 密码算法标准
+### 1.1 国家标准
 | **标准编号**| **标准名称**|
 | :------ | :------ |
 | [GB/T 33133.1—2016](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) | [信息安全技术 祖冲之序列密码算法 第1部分：算法描述](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=8C41A3AEECCA52B5C0011C8010CF0715) |
