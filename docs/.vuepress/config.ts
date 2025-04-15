@@ -149,6 +149,11 @@ export default defineUserConfig({
      */
     watermark: true,
 
+    watermarkOptions: {
+
+      content: 'kong',
+      // ...
+    }
     /**
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
