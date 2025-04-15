@@ -1,9 +1,3 @@
----
-title: 密码学体系
-createTime: 2024/01/10
-permalink: /security/cryptology/
----
-
 # 密码学体系
 
 ## 1. 基础密码学
