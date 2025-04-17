@@ -1,3 +1,8 @@
+---
+title: sql
+createTime: 2025/04/15 17:57:51
+permalink: /article/psb0a95g/
+---
 # SQL 语言
 
 ## 1. SQL 体系结构

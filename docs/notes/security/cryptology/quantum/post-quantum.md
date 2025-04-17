@@ -66,7 +66,6 @@ permalink: /article/qt7vdmt9/
 - 硬件加速
 - 混合方案
 
-
-
 参考资料: 
 - [后量子密码(抗量子密码)](https://www.cnblogs.com/xdyixia/p/11611642.html)
+- [复合密钥签名算法](https://www.ietf.org/archive/id/draft-ounsworth-pq-composite-sigs-13.html)

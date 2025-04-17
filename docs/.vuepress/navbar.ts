@@ -8,10 +8,10 @@ export const navbar = defineNavbarConfig([
   {
     text: '计算机基础',
     items: [
-      { text: '计算机组成', link: '/notes/cs/computer-organization/' },
-      { text: '操作系统', link: '/notes/cs/operating-system/' },
+      { text: '计算机结构', link: '/notes/cs/architecture/' },
+      { text: '操作系统', link: '/notes/cs/os/' },
       { text: '数据库', link: '/notes/cs/database/' },
-      { text: '计算机网络', link: '/notes/cs/computer-network/' }
+      { text: '计算机网络', link: '/notes/cs/network/' },
     ]
   },
   {
@@ -40,7 +40,7 @@ export const navbar = defineNavbarConfig([
       // { text: '访问控制', link: '/notes/security/access-control/' },
       // { text: '数据保护', link: '/notes/security/data-protection/' },
       { text: '密码学', link: '/notes/security/cryptology/' },
-      // { text: '网络安全', link: '/notes/security/network/' },
+      { text: '网络安全', link: '/notes/security/network/'},
       // { text: '应用安全', link: '/notes/security/application/' },
       // { text: '安全运维', link: '/notes/security/operations/' },
       // { text: '安全合规', link: '/notes/security/compliance/' }

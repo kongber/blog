@@ -107,6 +107,14 @@
 | [GB/T 19713—2025](https://std.samr.gov.cn/gb/search/gbDetailed?id=2FF37940EAA4D753E06397BE0A0A413F) | [网络安全技术 公钥基础设施 在线证书状态协议](https://std.samr.gov.cn/gb/search/gbDetailed?id=2FF37940EAA4D753E06397BE0A0A413F) |
 
 
+## 2 证书标准
+
+### 2.1 证书标准
+| 标准编号 | 标准名称 |
+| -------- | -------- |
+| 1 | 2 | 
+
+
 ## 参考资料
 
 - [国家标准全文公开系统](https://openstd.samr.gov.cn/)
