@@ -20,29 +20,27 @@ export const navbar = defineNavbarConfig([
       {
         text: '软件设计',
         items: [
-          { text: '架构设计', link: '/notes/se/design/architecture/' },
-          { text: '设计模式', link: '/notes/se/design/mode/' }
+          { text: '架构设计', link: '/notes/se/design/design-architecture/' },
+          { text: '设计模式', link: '/notes/se/design/design-mode/' }
         ]
       },
       {
         text: '开发方法',
         items: [
-          { text: '编程语言', link: '/notes/se/development-methods/coding-standards/' },
-          { text: '编码规范', link: '/notes/se/development-methods/coding-standards/' },
-          { text: '代码复用', link: '/notes/se/development-methods/code-reuse/' },
-          { text: '单元测试', link: '/notes/se/development-methods/unit-testing/' }
+          { text: '编程语言', link: '/notes/se/method/dev-language/' },
+          { text: '编码规范', link: '/notes/se/method/dev-standard/' },
         ]
       },
       {
         text: '质量保证',
         items: [
-          { text: '软件测试', link: '/notes/se/development-methods/coding-standards/' },
+          { text: '软件测试', link: '/notes/se/quailty/quality-test/' },
         ]
       },
       {
         text: '项目管理',
         items: [
-          { text: '开发模型', link: '/notes/se/development-methods/coding-standards/' },
+          { text: '开发模型', link: '/notes/se/manager/mode/' },
         ]
       }
     ]
