@@ -1,3 +1,8 @@
+---
+title: singleton
+createTime: 2025/04/21 17:11:10
+permalink: /article/ryv6o5hp/
+---
 # 单例模式
 
 ## 概述

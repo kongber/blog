@@ -1,3 +1,8 @@
+---
+title: chain-of-responsibility
+createTime: 2025/04/21 17:14:30
+permalink: /article/3njq3z0e/
+---
 # 责任链模式
 
 ## 概述

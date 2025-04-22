@@ -1,3 +1,8 @@
+---
+title: observer
+createTime: 2025/04/21 17:13:27
+permalink: /article/ps6eh1z3/
+---
 # 观察者模式
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+title: prototype
+createTime: 2025/04/21 17:11:46
+permalink: /article/oy5qf4gz/
+---
 # 原型模式
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+title: adapter
+createTime: 2025/04/21 17:12:10
+permalink: /article/z46z6071/
+---
 # 适配器模式
 
 ## 概述

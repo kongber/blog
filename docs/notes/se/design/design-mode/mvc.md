@@ -1,3 +1,8 @@
+---
+title: mvc
+createTime: 2025/04/21 17:14:51
+permalink: /article/dtl6hbma/
+---
 # MVC架构
 
 ## 概述

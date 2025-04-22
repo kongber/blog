@@ -1,3 +1,8 @@
+---
+title: command
+createTime: 2025/04/21 17:14:09
+permalink: /article/wa4mtwb8/
+---
 # 命令模式
 
 ## 概述

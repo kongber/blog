@@ -1,3 +1,8 @@
+---
+title: facade
+createTime: 2025/04/21 17:13:09
+permalink: /article/w0awdamj/
+---
 # 外观模式
 
 ## 概述

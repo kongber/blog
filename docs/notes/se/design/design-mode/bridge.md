@@ -1,3 +1,8 @@
+---
+title: bridge
+createTime: 2025/04/21 17:12:29
+permalink: /article/vjscxipd/
+---
 # 桥接模式
 
 ## 概述

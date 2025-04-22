@@ -1,3 +1,8 @@
+---
+title: strategy
+createTime: 2025/04/21 17:13:48
+permalink: /article/19q1fry4/
+---
 # 策略模式
 
 ## 概述

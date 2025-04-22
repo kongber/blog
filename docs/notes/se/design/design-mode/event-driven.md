@@ -1,3 +1,8 @@
+---
+title: event-driven
+createTime: 2025/04/21 17:16:04
+permalink: /article/7te1r03r/
+---
 # 事件驱动架构
 
 ## 概述

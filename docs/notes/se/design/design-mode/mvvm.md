@@ -1,3 +1,8 @@
+---
+title: mvvm
+createTime: 2025/04/21 17:15:14
+permalink: /article/fts3cit9/
+---
 # MVVM架构
 
 ## 概述

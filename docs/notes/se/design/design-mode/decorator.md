@@ -1,3 +1,8 @@
+---
+title: decorator
+createTime: 2025/04/21 17:12:50
+permalink: /article/pqq7cmzr/
+---
 # 装饰器模式
 
 ## 概述

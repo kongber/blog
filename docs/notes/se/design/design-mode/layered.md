@@ -1,3 +1,8 @@
+---
+title: layered
+createTime: 2025/04/21 17:15:37
+permalink: /article/k3buy4rc/
+---
 # 分层架构
 
 ## 概述

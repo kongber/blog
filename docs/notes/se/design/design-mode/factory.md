@@ -1,3 +1,8 @@
+---
+title: factory
+createTime: 2025/04/21 17:10:53
+permalink: /article/8c3xi5cl/
+---
 # 工厂模式
 
 ## 概述
