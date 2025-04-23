@@ -61,12 +61,12 @@ export const navbar = defineNavbarConfig([
       // { text: '身份认证', link: '/notes/sec/authentication/' },
       // { text: '访问控制', link: '/notes/sec/access-control/' },
       // { text: '数据保护', link: '/notes/sec/data-protection/' },
-      { text: '密码学', link: '/notes/sec/cryptology/' },
+      { text: '密码学', link: '/notes/sec/cryptology/'},
       { text: '网络安全', link: '/notes/sec/network/'},
+      { text: '标准规范', link: '/notes/sec/standards/'}
       // { text: '应用安全', link: '/notes/sec/application/' },
       // { text: '安全运维', link: '/notes/sec/operations/' },
       // { text: '安全合规', link: '/notes/sec/compliance/' }
     ]
   },
-  { text: '标准规范', link: '/notes/security/standards/' }
 ])
