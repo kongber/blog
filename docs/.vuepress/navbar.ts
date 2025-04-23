@@ -69,4 +69,5 @@ export const navbar = defineNavbarConfig([
       // { text: '安全合规', link: '/notes/sec/compliance/' }
     ]
   },
+  { text: '技术之外', link: '/notes/outlook/'},
 ])
