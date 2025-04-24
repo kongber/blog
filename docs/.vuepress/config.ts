@@ -148,7 +148,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/watermark/
      */
     watermark: {
- /**
+      /**
        * 是否全屏水印，默认为 `true`，
        * 设置为 `false` 时，水印仅在 内容区域中显示。
        */
