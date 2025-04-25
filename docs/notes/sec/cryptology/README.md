@@ -59,19 +59,64 @@
 ## 3. 应用密码学
 
 ### 3.1 密钥管理
-- [密钥生成](./key/generation.md)
-- [密钥分发](./key/distribution.md)
-- [密钥存储](./key/storage.md)
+- 密钥生命周期管理
+    - 密钥生成
+    - 密钥分发
+    - 密钥存储
+    - 密钥更新
+    - 密钥销毁
+- 密码设备接口
+    - PKCS#11
+    - JCE
+    - CNG
+- 密钥备份与恢复
 
 ### 3.2 认证机制
-- [数字签名](./auth/digital-signature.md)
-- [数字证书](./auth/certificate.md)
-- [PKI体系](./auth/pki.md)
+- 身份认证
+    - 数字签名
+    - 数字证书
+    - PKI体系
+- 消息认证
+    - MAC
+    - HMAC
+- 多因素认证
+    - OTP
+    - FIDO
 
 ### 3.3 协议安全
-- [TLS/SSL](./protocol/tls-ssl.md)
-- [SSH](./protocol/ssh.md)
-- [VPN](./protocol/vpn.md)
+- 网络协议
+    - TLS/SSL
+    - SSH
+    - IPSec
+- 应用协议
+    - HTTPS
+    - SFTP
+    - PGP
+- VPN协议
+    - OpenVPN
+    - L2TP
+    - PPTP
+### 3.4 数据保护
+- 存储加密
+    - 文件加密
+    - 磁盘加密
+    - 数据库加密
+- 传输加密
+    - 端到端加密
+    - 链路加密
+- 密钥托管
+    - KMS
+    - HSM
+### 3.5 访问控制
+- 权限管理
+    - RBAC
+    - ABAC
+- 审计日志
+    - 操作记录
+    - 密钥使用记录
+- 安全策略
+    - 密码策略
+    - 访问策略
 
 ## 4. 密码分析
 
