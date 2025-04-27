@@ -19,6 +19,23 @@ PKCS11是一种用于安全访问硬件加密设备的应用程序接口（API�
 - 适用的场景
 - 主要用户群体
 ## 4. PKCS11 实现步骤
+
+安装 pkcs11-tool
+
+基于 Ubuntu 安装 `sudo apt install opensc1`
+
+
+
+签名：
+
+pkcs11-tool --module ./libgm3000_pkcs11.so --login --sign --mechanism SHA256-RSA-PKCS --input input_file --output signed_file --pin 12345678
+
+加密：
+
+
+
+
+
 - 如何实现PKCS#11
 - 如何使用PKCS#11
 - 开发示例和最佳实践
@@ -26,7 +43,14 @@ PKCS11是一种用于安全访问硬件加密设备的应用程序接口（API�
 - 性能影响
 - 资源消耗
 - 成本考虑
+- 
+
+
+
 
 
 参考资料：
-- [pkcs11-provider-example](https://github.com/embetrix/pkcs11-provider-example)
+
+* [PKCS #11 加密令牌接口基本规范版本 2.40](https://docs.oasis-open.org/pkcs11/pkcs11-base/v2.40/errata01/os/pkcs11-base-v2.40-errata01-os-complete.html)
+* [PKCS #11 provider 应用](https://github.com/embetrix/pkcs11-provider-example)
+* [PKCS #11 URI Scheme](https://www.rfc-editor.org/rfc/rfc7512)
