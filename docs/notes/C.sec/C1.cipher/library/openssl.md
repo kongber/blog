@@ -6,18 +6,13 @@ permalink: /article/dcv6gqr2/
 
 # 加密库 | OpenSSL
 
-# 一、OpenSSL 简介
+## 1. OpenSSL 简介
 
-OpenSSL: OpensSSL 是一个开放源代码的软件库包，应用程序可以使用这个包来进行安全通信。
-
+OpensSSL 是一个开放源代码的软件库包，应用程序可以使用这个包来进行安全通信。
 库地址：[https://www.openssl.org/](https://www.openssl.org/)
 
-BabaSSL: OpensSSL 库不支持国密 TLS，可使用 BabaSSL 实现国密 TLS。
-
-库地址：[https://babassl.readthedocs.io/zh/latest/](https://babassl.readthedocs.io/zh/latest/)
-
-# 二、OpenSSL 库编译
-
+# 2. OpenSSL 库编译
+ 
 ## 2.1 Window 编译
 
 ```bash
@@ -67,7 +62,7 @@ export ANDROID_NDK_ROOT=/opt/toolchains/android/android-ndk-r26d
 make install** 
 ```
 
-# 三、OpenSSL 常用命令
+## 3. OpenSSL 常用命令
 
 ## 3.1 **证书格式转换**
 
@@ -101,7 +96,7 @@ openssl pkcs7 -print_certs -in certificate.p7b -out certificate.cer
 
 openssl pkcs12 -export -in certificate.cer -inkey privateKey.key -out certificate.pfx -certfile CACert.cer
 
-## 3.2 **多级证书链生成**
+## 3.2 多级证书链生成
 
 ### 3.2.1 RSA 证书链
 
@@ -220,7 +215,7 @@ keytool -keystore truststore.bks -keypass qwer1234 -storepass qwer1234
 -providerpath /Users/sm2/Desktop/certs/bcprov-jdk18on-177.jar
 ```
 
-# 四、参考链接
+## 4. 参考链接
 
 1. 代码生成 CSR 文件  [https://www.cnblogs.com/chevin/p/11041713.html](https://www.cnblogs.com/chevin/p/11041713.html)
 2. 生成 ED25519 证书 [https://blog.pinterjann.is/ed25519-certificates.html](https://blog.pinterjann.is/ed25519-certificates.html)
