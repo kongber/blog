@@ -136,14 +136,5 @@ permalink: /notes/se/rvej7qfs/
 - [安全证明](./security/proofs.md)
 - [标准与规范](./security/standards.md)
 
-## 5. 新兴领域
-
-### 5.1 区块链密码学
-- [共识机制](./blockchain/consensus.md)
-- [智能合约](./blockchain/smart-contract.md)
-- [零知识应用](./blockchain/zk-apps.md)
-
-### 5.2 隐私计算
-- [安全多方计算](./privacy/mpc.md)
-- [联邦学习](./privacy/federated-learning.md)
-- [差分隐私](./privacy/differential-privacy.md)
+## 5. 密码库
+- [OpenSSL](./library/openssl.md)
