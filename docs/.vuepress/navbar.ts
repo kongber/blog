@@ -2,15 +2,12 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
   { text: '首页', link: '/' },
-  // { text: '博客', link: '/blog/' },
-  // { text: '标签', link: '/blog/tags/' },
-  // { text: '归档', link: '/blog/archives/' },
   {
     text: '计算机基础',
     items: [
-      { text: '计算机结构', link: '/notes/A.cs/A1.architecture/' }, 
-      { text: '操作系统',  link: '/notes/A.cs/A2.os/' }, 
-      { text: '数据库',    link: '/notes/A.cs/A3.database/' },
+      { text: '计算机结构', link: '/notes/A.cs/A1.base/' }, 
+      { text: '操作系统  ', link: '/notes/A.cs/A2.os/' }, 
+      { text: '数据库系统', link: '/notes/A.cs/A3.database/' },
       { text: '计算机网络', link: '/notes/A.cs/A4.network/' },
     ]
   },
