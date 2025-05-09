@@ -220,3 +220,4 @@ keytool -keystore truststore.bks -keypass qwer1234 -storepass qwer1234
 1. 代码生成 CSR 文件  [https://www.cnblogs.com/chevin/p/11041713.html](https://www.cnblogs.com/chevin/p/11041713.html)
 2. 生成 ED25519 证书 [https://blog.pinterjann.is/ed25519-certificates.html](https://blog.pinterjann.is/ed25519-certificates.html)
 3. OpenSSL 测试命令  [https://blog.csdn.net/carefree2005/article/details/120889451](https://blog.csdn.net/carefree2005/article/details/120889451)
+4. OpenSSL 简介 [https://deepwiki.com/openssl/openssl/2.1-tlsssl-architecture](https://deepwiki.com/openssl/openssl/2.1-tlsssl-architecture)

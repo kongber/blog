@@ -10,7 +10,7 @@ Ubuntu: apt-get install valgrind
 
 // 安装 KCacheGrind 性能分析
 CentOS: yum install kcachegrind
-Ubuntu: apt-get install kcachegrind
+Ubuntu: apt-get install kcachegrind0
 
 // 安装 massif-visualizer 堆栈检测
 CentOS: yum install massif-visualizer
