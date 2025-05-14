@@ -15,29 +15,36 @@ export const navbar = defineNavbarConfig([
     text: '软件工程',
     items: [
       {
-        text: '软件设计',
-        items: [
-          { text: '架构设计', link: '/notes/B.se/B1.design/design-architecture/' },
-          { text: '设计模式', link: '/notes/B.se/B1.design/design-mode/' } 
-        ]
-      },
-      {
         text: '开发方法',
         items: [
-          { text: '编程语言', link: '/notes/B.se/B2.method/dev-language/' },
-          { text: '编码规范', link: '/notes/B.se/B2.method/dev-standard/' }, 
+          { text: '开发模型', link: '/notes/B.se/B1.development/mode/' },
+          { text: '编码规范', link: '/notes/B.se/B1.development/standard/' }, 
         ]
       },
       {
-        text: '质量保证',
+        text: '软件需求',
         items: [
-          { text: '软件测试', link: '/notes/B.se/B3.quailty/quality-test/' },
+          { text: '需求开发', link: '/notes/B.se/B2.demand/dev/' },
+          { text: '需求管理', link: '/notes/B.se/B2.demand/manage/' } 
         ]
       },
       {
-        text: '项目管理',
+        text: '软件设计',
         items: [
-          { text: '开发模型', link: '/notes/B.se/B4.manager/mode/' }, 
+          { text: '架构设计', link: '/notes/B.se/B3.design/design-architecture/' },
+          { text: '设计模式', link: '/notes/B.se/B3.design/design-mode/' } 
+        ]
+      },
+      {
+        text: '软件测试',
+        items: [
+          { text: '软件测试', link: '/notes/B.se/B4.testing/quality-test/' },
+        ]
+      },
+      {
+        text: '软件维护',
+        items: [
+          { text: '开发模型', link: '/notes/B.se/B5.maintenance/mode/' }, 
         ]
       }
     ]
