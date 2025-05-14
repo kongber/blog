@@ -31,8 +31,11 @@ export const navbar = defineNavbarConfig([
       {
         text: '软件设计',
         items: [
-          { text: '架构设计', link: '/notes/B.se/B3.design/design-architecture/' },
-          { text: '设计模式', link: '/notes/B.se/B3.design/design-mode/' } 
+          { text: '架构设计', link: '/notes/B.se/B3.design/architecture/' },
+          { text: '设计模式', link: '/notes/B.se/B3.design/mode/' },
+          { text: '界面设计', link: '/notes/B.se/B3.design/ui/' },
+          { text: '安全设计', link: '/notes/B.se/B3.design/safe/' },
+          { text: '性能设计', link: '/notes/B.se/B3.design/perform/' },
         ]
       },
       {
