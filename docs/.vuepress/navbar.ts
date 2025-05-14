@@ -41,7 +41,7 @@ export const navbar = defineNavbarConfig([
       {
         text: '软件测试',
         items: [
-          { text: '软件测试', link: '/notes/B.se/B4.testing/quality-test/' },
+          { text: '软件测试', link: '/notes/B.se/B4.testing/' },
         ]
       },
       {
