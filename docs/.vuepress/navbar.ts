@@ -55,13 +55,20 @@ export const navbar = defineNavbarConfig([
   {
     text: '系统安全',
     items: [
+        {
+          text: '密码学',
+          items: [
+            { text: '加解密算法', link: '/notes/C.safe/C1.cipher/algorithm/' },
+            { text: 'PKI 体系', link: '/notes/C.safe/C1.cipher/pki/' }, 
+          ]
+        },
       // { text: '安全基础', link: '/notes/C.sec/basics/' }, 
       // { text: '身份认证', link: '/notes/C.sec/authentication/' }, 
       // { text: '访问控制', link: '/notes/C.sec/access-control/' }, 
       // { text: '数据保护', link: '/notes/C.sec/data-protection/' }, 
-      { text: '密码学', link: '/notes/C.sec/C1.cipher/'}, 
-      { text: '网络安全', link: '/notes/C.sec/C2.network/'}, 
-      { text: '标准规范', link: '/notes/C.sec/C3.standards/'}
+      // { text: '密码学', link: '/notes/C.safe/C1.cipher/'}, 
+      // { text: '网络安全', link: '/notes/C.safe/C2.network/'}, 
+      // { text: '标准规范', link: '/notes/C.safe/C3.standards/'}
       // { text: '应用安全', link: '/notes/C.sec/application/' },
       // { text: '安全运维', link: '/notes/C.sec/operations/' },
       // { text: '安全合规', link: '/notes/C.sec/compliance/' }

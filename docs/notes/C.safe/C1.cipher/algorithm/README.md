@@ -8,18 +8,18 @@ permalink: /notes/se/rvej7qfs/
 ## 1. 基础密码学
 
 ### 1.1 分组密码
-- [DES](./symmetric/des.md)
-- [3DES](./symmetric/3des.md)
-- [AES](./symmetric/aes.md)
-- [SM4](./symmetric/sm4.md)
+- [DES](./des.md)
+- [3DES](./3des.md)
+- [AES](./aes.md)
+- [SM4](./sm4.md)
 
 ### 1.2 分组密码模式
-- [ECB](./symmetric/ecb.md)
-- [CBC](./symmetric/cbc.md)
-- [CFB](./symmetric/cfb.md)
-- [OFB](./symmetric/ofb.md)
-- [CTR](./symmetric/ctr.md)
-- [GCM](./symmetric/gcm.md)
+- [ECB](./ecb.md)
+- [CBC](./cbc.md)
+- [CFB](./cfb.md)
+- [OFB](./ofb.md)
+- [CTR](./ctr.md)
+- [GCM](./gcm.md)
 
 ### 1.3 流密码
 - [RC4-流密码](./symmetric/rc4.md)
@@ -35,14 +35,14 @@ permalink: /notes/se/rvej7qfs/
 - [SM9](./asymmetric/sm9.md)
 
 ### 1.5 哈希函数
-- [MD5](./hash/md5.md)
-- [SHA](./hash/sha.md)
+- [MD5](./md5.md)
+- [SHA](./sha.md)
 
-- [SM3](./hash/sm3.md)
+- [SM3](./sm3.md)
 
 ### 1.6 消息认证码
-- [HMAC](./mac/hmac.md)
-- [CMAC](./mac/cmac.md)
+- [HMAC](./hmac.md)
+- [CMAC](./cmac.md)
 
 ## 2. 高级密码学
 
@@ -136,7 +136,16 @@ permalink: /notes/se/rvej7qfs/
 - [安全证明](./security/proofs.md)
 - [标准与规范](./security/standards.md)
 
-## 5. 密码库
-- [OpenSSL](./library/openssl.md)
-- [Tongsuo](./library/tongsuo.md)
-- [GMSSL](./library/gmssl.md)
+## 5. 密码
+- [OpenSSL](./openssl.md)
+- [Tongsuo](./tongsuo.md)
+- [GMSSL](./gmssl.md)
+
+## 6. 密码工具
+1. 密码计算: http://www.kongber.site
+2. 国密工具: https://gmcert.org/subForm#
+ED25519: https://cyphr.me/ed25519_tool/ed.html
+SM2: http://i.goto327.top:85/
+RSA: https://try8.cn/tool/cipher/rsa
+All: https://asecuritysite.com/encryption#ecc10
+3. 算法性能: https://www.cryptopp.com/benchmarks-p4.html
