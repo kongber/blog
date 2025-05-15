@@ -15,6 +15,10 @@ if [ $current_hour -lt $min_hour ]; then
     exit 1
 fi
 
+# 配置代理
+export http_proxy=http://127.0.0.1:1087;
+export https_proxy=http://127.0.0.1:1087;
+
 # 自动添加所有更改
 git add .
 
