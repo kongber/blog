@@ -57,3 +57,4 @@ pkcs11-tool --module./libgm3000_pkcs11.so --login --decrypt --mechanism RSA-OAEP
 * [PKCS #11 provider 应用](https://github.com/embetrix/pkcs11-provider-example)
 * [PKCS #11 URI Scheme](https://www.rfc-editor.org/rfc/rfc7512)
 * [PKCS #11 Tool and Opensssl](https://github.com/OpenSC/OpenSC/wiki/Using-pkcs11-tool-and-OpenSSL)
+* [PKCS #11 youtube](https://www.youtube.com/watch?v=zTt9wp5vXDE&list=PLgBMtP0_D_aec5yMhAmcjmeFoJGwfgLKy)  
