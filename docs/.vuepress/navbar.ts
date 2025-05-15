@@ -62,6 +62,18 @@ export const navbar = defineNavbarConfig([
             { text: 'PKI 体系', link: '/notes/C.safe/C1.cipher/pki/' }, 
           ]
         },
+        {
+          text: '网络安全',
+          items: [
+            { text: 'Web 安全', link: '/notes/C.safe/C2.network/attack/' },
+          ]
+        },
+        {
+          text: '安全合规',
+          items: [
+            { text: '密码标准', link: '/notes/C.safe/C3.standards/algorithm/' },
+          ]
+        },
       // { text: '安全基础', link: '/notes/C.sec/basics/' }, 
       // { text: '身份认证', link: '/notes/C.sec/authentication/' }, 
       // { text: '访问控制', link: '/notes/C.sec/access-control/' }, 

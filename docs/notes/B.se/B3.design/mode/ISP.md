@@ -70,4 +70,4 @@ class ImprovedRobot implements Workable {
 }
 ```
 
-From: Claude
+From: Claude-3.5
