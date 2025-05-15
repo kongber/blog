@@ -27,9 +27,9 @@ echo "HTTPS代理: $https_proxy"
 # 测试代理连接
 echo "测试代理连接..."
 if curl -s -I https://www.google.com > /dev/null; then
-    echo "代理测试成功：可以访问Google"
+    echo "代理测试成功: 可以访问 Google."
 else
-    echo "代理测试失败：无法访问Google"
+    echo "代理测试失败: 无法访问 Google."
     exit 1
 fi
 
