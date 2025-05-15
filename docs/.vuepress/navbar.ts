@@ -72,7 +72,9 @@ export const navbar = defineNavbarConfig([
           text: '安全合规',
           items: [
             { text: '密码标准', link: '/notes/C.safe/C3.standards/algorithm/' },
-          ]
+            { text: '法律法规', link: '/notes/C.safe/C3.standards/regulation/' },
+            
+          ],  
         },
       // { text: '安全基础', link: '/notes/C.sec/basics/' }, 
       // { text: '身份认证', link: '/notes/C.sec/authentication/' }, 

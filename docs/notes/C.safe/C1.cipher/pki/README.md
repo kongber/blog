@@ -23,7 +23,7 @@
 - 证书格式和扩展
 - 证书链验证
 ## 4. 证书申请和管理协议
-- PKCS系列标准
+- [PKCS系列标准](./pkcs.md)
 - [SCEP（简单证书注册协议）](./scep.md)
 - EST（Enrollment over Secure Transport）
 - ACME（自动证书管理环境）
