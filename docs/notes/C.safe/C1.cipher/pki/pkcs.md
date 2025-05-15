@@ -45,7 +45,7 @@ PKCS 全称是 Public-Key Cryptography Standards ，是由 RSA 实验室与其�
 ## 8. PKCS#7：密码消息语法标准
 - 数字签名格式
 - 数字信封
-- S/MIME应用
+- CMS 是 pkc7 的演进版本
 - 对应RFC标准：2315、5652、3369
 - pkcs7: https://www.rfc-editor.org/rfc/rfc2315
 - CMS: https://www.rfc-editor.org/rfc/rfc5652
