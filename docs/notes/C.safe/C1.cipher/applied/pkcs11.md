@@ -34,6 +34,7 @@ PKCS11 API 使用特定的前缀来区分不同类型的函数和数据：
 * CKF_：标志（Flag）
 
 ## 2.5 调用流程
+```mermaid
 graph TD
     A[C_GetFunctionList] --> B[C_Initialize]
     B --> C[C_GetSlotList]
@@ -42,6 +43,7 @@ graph TD
     E --> F[C_Logout]
     F --> G[C_CloseSession]
     G --> H[C_Finalize]
+```
 
 
 ## 3. PKCS11 应用场景
