@@ -3,17 +3,17 @@
 # 切换到项目目录
 cd /Users/sm2/Desktop/blog/vuepress
 
-# 获取当前时间的小时数
-current_hour=$(date +%H)
+# # 获取当前时间的小时数
+# current_hour=$(date +%H)
 
-# 设置允许执行的最小时间（例如9点）
-min_hour=18
+# # 设置允许执行的最小时间（例如9点）
+# min_hour=18
 
-# 检查当前时间是否小于最小允许时间
-if [ $current_hour -lt $min_hour ]; then
-    echo "错误：当前时间 ${current_hour}:xx，必须在 ${min_hour}:00 之后才能执行"
-    exit 1
-fi
+# # 检查当前时间是否小于最小允许时间
+# if [ $current_hour -lt $min_hour ]; then
+#     echo "错误：当前时间 ${current_hour}:xx，必须在 ${min_hour}:00 之后才能执行"
+#     exit 1
+# fi
 
 # 配置代理
 export http_proxy=http://127.0.0.1:1087;
