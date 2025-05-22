@@ -71,7 +71,7 @@ permalink: /notes/se/rvej7qfs/
     - 密钥更新
     - 密钥销毁
 - 密码设备接口
-    - [PKCS#11](./applied/pkcs11.md)
+    - [PKCS#11](./pkcs11.md)
     - JCE
     - CNG
 - 密钥备份与恢复
