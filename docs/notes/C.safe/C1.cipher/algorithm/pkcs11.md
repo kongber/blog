@@ -49,8 +49,8 @@ graph TD
     G --> H[C_Finalize]
 ```
 
+## 3. SoftHsm 
 
-## 3. PKCS11 应用场景
 - 为什么需要PKCS#11
 - 解决了什么问题
 - 带来什么好处
@@ -85,11 +85,6 @@ pkcs11-tool --module./libgm3000_pkcs11.so --login --decrypt --mechanism RSA-OAEP
 - 性能影响
 - 资源消耗
 - 成本考虑
-- 
-
-
-
-
 
 参考资料：
 
