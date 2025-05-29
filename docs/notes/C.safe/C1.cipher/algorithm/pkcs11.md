@@ -24,20 +24,7 @@ PKCS11是一种用于安全访问硬件加密设备的应用程序接口（API�
     * Security Officer (管理员)：初始化令牌，设置密码，重置密码，更新固件等管理操作。
     * Normal Users (普通用户)：生成密钥，签名，加密，解密，证书管理，密钥管理。
 
-### 2.2 PKCS11 前缀命名规范
-PKCS11 API 使用特定的前缀来区分不同类型的函数和数据：
-
-* C_：加密函数（Cryptographic function）
-* CK_：数据类型或常量（Data Type or constant）
-* CKA_：密钥属性（Attribute of a key）
-* CKM_：加密机制/算法（Mechanisms/Algorithms）
-* CKO_：对象类（Class of an Object）
-* CKK_：密钥类型（Type of key）
-* CKR_：函数返回码（Return Code from a function）
-* CKU_：用户类型（User Type）
-* CKF_：标志（Flag）
-
-## 2.5 调用流程
+### 2.2 调用流程
 ```mermaid
 graph TD
     A[C_GetFunctionList] --> B[C_Initialize]
@@ -49,38 +36,41 @@ graph TD
     G --> H[C_Finalize]
 ```
 
-## 3. SoftHsm 
+## 3. SoftHsm2 
+SoftHsm2是一个开源的密码设备软件实现，提供了PKCS11接口，用于管理和使用密码设备。它支持多种硬件加密设备，如HSM、智能卡等。
 
-- 为什么需要PKCS#11
-- 解决了什么问题
-- 带来什么好处
+### 3.1 安装和配置
+```bash 
+sudo apt install softhsm2
+softhsm2-util --version
+```
 
 ## 4. PKCS11 实现和使用
 
 ### 4.1 工具安装
-基于 Ubuntu 安装 pkcs11-tool：
+
+使用 opensc 安装 操作 pkcs11 模块。
 ```bash
-sudo apt install opensc1
+sudo apt install opensc
 ```
+### 4.2 模块管理
+* 查看模块信息: 
+    * pkcs11-tool --show-info --module ./libgm3000_pkcs11.so 
+* 查看令牌信息:
+    * pkcs11-tool --list-slots --module./libgm3000_pkcs11.so 
+* 查看对象信息: 
+    * pkcs11-tool --list-objects --module./libgm3000_pkcs11.so 
+* 查看对象信息(private): 
+    * pkcs11-tool --list-objects --module./libgm3000_pkcs11.so --login --pin 12345678
+* 签名操作: 
+    * pkcs11-tool --module ./libgm3000_pkcs11.so --login --sign --mechanism SHA256-RSA-PKCS --input input_file --output signed_file --pin 12345678
+* 验证签名: 
+    * pkcs11-tool --module./libgm3000_pkcs11.so --login --verify --mechanism SHA256-RSA-PKCS --input input_file --signature signed_file --pin 12345678
+* 加密操作: 
+    * pkcs11-tool --module./libgm3000_pkcs11.so --login --encrypt --mechanism RSA-OAEP --input input_file --output encrypted_file --pin 12345678
+* 解密操作:
+    * pkcs11-tool --module./libgm3000_pkcs11.so --login --decrypt --mechanism RSA-OAEP --input encrypted_file --output decrypted_file --pin 12345678
 
-查看当前可用模块：
-pkcs11-tool --module ./libgm3000_pkcs11.so --list-object
-
-pkcs11-tool --module ./libgm3000_pkcs11.so --list-object --pin 12345678
-
-签名：
-pkcs11-tool --module ./libgm3000_pkcs11.so --login --sign --mechanism SHA256-RSA-PKCS --input input_file --output signed_file --pin 12345678
-验证签名：
-pkcs11-tool --module./libgm3000_pkcs11.so --login --verify --mechanism SHA256-RSA-PKCS --input input_file --signature signed_file --pin 12345678
-加密：
-pkcs11-tool --module./libgm3000_pkcs11.so --login --encrypt --mechanism RSA-OAEP --input input_file --output encrypted_file --pin 12345678
-解密：
-pkcs11-tool --module./libgm3000_pkcs11.so --login --decrypt --mechanism RSA-OAEP --input encrypted_file --output decrypted_file --pin 12345678
-
-
-- 如何实现PKCS#11
-- 如何使用PKCS#11
-- 开发示例和最佳实践
 ## 5. PKCS11 实现步骤
 - 性能影响
 - 资源消耗
