@@ -25,15 +25,15 @@ PKCS11是一种用于安全访问硬件加密设备的应用程序接口（API�
     * Normal Users (普通用户)：生成密钥，签名，加密，解密，证书管理，密钥管理。
 
 ### 2.2 调用流程
-```mermaid
-graph TD
-    A[C_GetFunctionList] --> B[C_Initialize]
-    B --> C[C_GetSlotList]
-    C --> D[C_OpenSession]
-    D --> E[C_Login]
-    E --> F[C_Logout]
-    F --> G[C_CloseSession]
-    G --> H[C_Finalize]
+
+```markdown
+A[C_GetFunctionList] --> B[C_Initialize] 
+B --> C[C_GetSlotList]
+C --> D[C_OpenSession]
+D --> E[C_Login]
+E --> F[C_Logout]
+F --> G[C_CloseSession]
+G --> H[C_Finalize]
 ```
 
 ## 3. SoftHsm2 
@@ -58,10 +58,14 @@ sudo apt install opensc
     * pkcs11-tool --show-info --module ./libgm3000_pkcs11.so 
 * 查看令牌信息:
     * pkcs11-tool --list-slots --module./libgm3000_pkcs11.so 
+* 初始化令牌:
+    * pkcs11-tool --init-token --slot 0 --label "My Token" --so-pin 12345678 --module./libgm3000_pkcs11.so
 * 查看对象信息: 
     * pkcs11-tool --list-objects --module./libgm3000_pkcs11.so 
 * 查看对象信息(private): 
     * pkcs11-tool --list-objects --module./libgm3000_pkcs11.so --login --pin 12345678
+* 删除对象信息:
+    * pkcs11-tool --delete-object --label="vehiclepubk" --type=data --module ./libgm3000_pkcs11.so
 * 签名操作: 
     * pkcs11-tool --module ./libgm3000_pkcs11.so --login --sign --mechanism SHA256-RSA-PKCS --input input_file --output signed_file --pin 12345678
 * 验证签名: 
