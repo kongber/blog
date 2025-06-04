@@ -55,15 +55,17 @@ sudo apt install opensc
 ```
 ### 4.2 模块管理
 * 查看模块信息: 
-    * pkcs11-tool --show-info --module ./libgm3000_pkcs11.so 
+    * pkcs11-tool --show-info --module /usr/local/lib/softhsm/libsofthsm2.so
 * 查看令牌信息:
-    * pkcs11-tool --list-slots --module./libgm3000_pkcs11.so 
+    * pkcs11-tool --list-slots --module /usr/local/lib/softhsm/libsofthsm2.so
 * 初始化令牌:
-    * pkcs11-tool --init-token --slot 0 --label "My Token" --so-pin 12345678 --module./libgm3000_pkcs11.so
+    * pkcs11-tool --init-token --slot 0 --label "My Token" --so-pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
+* 初始化用户:
+    * pkcs11-tool --init-pin --slot 0x01 --so-pin 12345678 --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 * 查看对象信息: 
-    * pkcs11-tool --list-objects --module./libgm3000_pkcs11.so 
+    * pkcs11-tool --list-objects --module /usr/local/lib/softhsm/libsofthsm2.so
 * 查看对象信息(private): 
-    * pkcs11-tool --list-objects --module./libgm3000_pkcs11.so --login --pin 12345678
+    * pkcs11-tool --list-objects --module /usr/local/lib/softhsm/libsofthsm2.so --login --pin 12345678
 * 删除对象信息:
     * pkcs11-tool --delete-object --label="vehiclepubk" --type=data --module ./libgm3000_pkcs11.so
 * 签名操作: 
