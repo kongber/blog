@@ -54,6 +54,7 @@ softhsm2-util --version
 sudo apt install opensc
 ```
 ### 4.2 模块管理
+使用 softHsm2 管理 pkcs11 模块。(其他硬件设备模块类似)
 * 查看模块信息: 
     * pkcs11-tool --show-info --module /usr/local/lib/softhsm/libsofthsm2.so
 * 查看令牌信息:
@@ -65,17 +66,17 @@ sudo apt install opensc
 * 查看对象信息: 
     * pkcs11-tool --list-objects --module /usr/local/lib/softhsm/libsofthsm2.so
 * 查看对象信息(private): 
-    * pkcs11-tool --list-objects --module /usr/local/lib/softhsm/libsofthsm2.so --login --pin 12345678
+    * pkcs11-tool --list-objects --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so 
 * 删除对象信息:
-    * pkcs11-tool --delete-object --label="vehiclepubk" --type=data --module ./libgm3000_pkcs11.so
+    * pkcs11-tool --delete-object --label="vehiclepubk" --type=data --module /usr/local/lib/softhsm/libsofthsm2.so
 * 签名操作: 
-    * pkcs11-tool --module ./libgm3000_pkcs11.so --login --sign --mechanism SHA256-RSA-PKCS --input input_file --output signed_file --pin 12345678
+    * pkcs11-tool --sign --mechanism SHA256-RSA-PKCS --input input_file --output signed_file --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 * 验证签名: 
-    * pkcs11-tool --module./libgm3000_pkcs11.so --login --verify --mechanism SHA256-RSA-PKCS --input input_file --signature signed_file --pin 12345678
+    * pkcs11-tool --verify --mechanism SHA256-RSA-PKCS --input input_file --signature signed_file --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 * 加密操作: 
-    * pkcs11-tool --module./libgm3000_pkcs11.so --login --encrypt --mechanism RSA-OAEP --input input_file --output encrypted_file --pin 12345678
+    * pkcs11-tool --encrypt --mechanism RSA-OAEP --input input_file --output encrypted_file --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 * 解密操作:
-    * pkcs11-tool --module./libgm3000_pkcs11.so --login --decrypt --mechanism RSA-OAEP --input encrypted_file --output decrypted_file --pin 12345678
+    * pkcs11-tool --decrypt --mechanism RSA-OAEP --input encrypted_file --output decrypted_file --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 
 ## 5. PKCS11 实现步骤
 - 性能影响
