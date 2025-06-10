@@ -69,6 +69,8 @@ sudo apt install opensc
     * pkcs11-tool --list-objects --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so 
 * 删除对象信息:
     * pkcs11-tool --delete-object --label="vehiclepubk" --type=data --module /usr/local/lib/softhsm/libsofthsm2.so
+* 生成密钥对信息:
+    * pkcs11-tool --generate-key-pair --key-type RSA:2048 --id 01 --label "My Key Pair" --module /usr/local/lib/softhsm/libsofthsm2.so
 * 签名操作: 
     * pkcs11-tool --sign --mechanism SHA256-RSA-PKCS --input input_file --output signed_file --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 * 验证签名: 
@@ -78,13 +80,7 @@ sudo apt install opensc
 * 解密操作:
     * pkcs11-tool --decrypt --mechanism RSA-OAEP --input encrypted_file --output decrypted_file --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 
-## 5. PKCS11 实现步骤
-- 性能影响
-- 资源消耗
-- 成本考虑
-
 参考资料：
-
 * 规范
     * [PKCS #11 加密令牌接口基本规范版本 2.40](https://docs.oasis-open.org/pkcs11/pkcs11-base/v2.40/errata01/os/pkcs11-base-v2.40-errata01-os-complete.html)
     * [PKCS #11 URI Scheme](https://www.rfc-editor.org/rfc/rfc7512)
