@@ -80,7 +80,24 @@ sudo apt install opensc
 * 解密操作:
     * pkcs11-tool --decrypt --mechanism RSA-OAEP --input encrypted_file --output decrypted_file --login --pin 12345678 --module /usr/local/lib/softhsm/libsofthsm2.so
 
-参考资料：
+### 4.3 常用函数
+* C_Initialize：这个函数用于初始化PKCS#11库和密码设备。它可能包括设置库的运行时环境、加载支持的密码设备模块，以及进行其他初始化操作。
+* C_Finalize：C_Finalize函数用于终止PKCS#11库和密码设备的操作。它通常包括资源的释放、会话的关闭和清理操作。
+* C_GetFunctionList：这个函数用于获取PKCS#11库中可用的函数列表，以供应用程序进行函数调用。
+* C_GetInfo：C_GetInfo函数用于获取PKCS#11库的信息，如库的版本、制造商、支持的机制等。
+* C_GetSlotList：这个函数用于获取密码设备中可用的槽（slots）列表，每个槽对应一个物理或逻辑插槽，通常包含一个密码设备模块。
+* C_GetTokenInfo：C_GetTokenInfo函数用于获取特定槽中的密码设备信息，包括制造商、模块名称、序列号等。
+* C_OpenSession：C_OpenSession函数用于建立与密码设备的会话，这是进行密码学操作的前提，会话可以有不同的安全级别和属性。
+* C_CloseSession：C_CloseSession函数用于关闭会话，确保资源的正确释放，会话的安全结束以及操作的完整性。
+* C_Login：C_Login函数用于用户的身份验证，以获得对密码设备的访问权限。这可以包括PIN码的验证或其他身份验证机制。
+* C_Logout：C_Logout函数用于用户退出会话，以保护密码设备免受未经授权的访问。
+* C_GenerateKey：这个函数用于生成密钥，可以是对称密钥或非对称密钥，具体取决于指定的机制和参数。
+* C_Encrypt和C_Decrypt：这些函数分别用于加密和解密数据，可以使用指定的密钥和机制进行操作。
+* C_Sign和C_Verify：这些函数用于数字签名和验证数字签名，以确保数据的完整性和来源验证。
+* C_Digest：C_Digest函数用于计算数据的摘要，通常用于数据完整性验证。
+* C_GenerateRandom：C_GenerateRandom函数用于生成高质量的随机数，用于密钥生成、初始化向量生成等密码学操作。
+
+## 5. 参考资料
 * 规范
     * [PKCS #11 加密令牌接口基本规范版本 2.40](https://docs.oasis-open.org/pkcs11/pkcs11-base/v2.40/errata01/os/pkcs11-base-v2.40-errata01-os-complete.html)
     * [PKCS #11 URI Scheme](https://www.rfc-editor.org/rfc/rfc7512)

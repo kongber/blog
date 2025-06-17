@@ -181,8 +181,13 @@ openssl dgst -sha256 -hmac keystr datafile
 # SM3-HMAC
 openssl dgst -sm3 -hmac keystr datafile
 ```
+### 3.7 加解密计算
+```bash 
+测试生成 RSA 密钥对的速度
+time openssl genpkey -algorithm RSA -out private_key_3072.pem -pkeyopt rsa_keygen_bits:3072
+```
 
-### 3.7 TLS 服务
+### 3.8 TLS 服务
 
 ```bash
 # 开启 TLS 服务
@@ -206,7 +211,7 @@ openssl s_client -connect 127.0.0.1:4433 -cipher ECDHE-SM2-WITH-SM4-SM3 \
     -enable_ntls -ntls
 ```
 
-### 3.8 生成 bks
+### 3.9 生成 bks
 
 ```bash
 keytool -keystore truststore.bks -keypass qwer1234 -storepass qwer1234
