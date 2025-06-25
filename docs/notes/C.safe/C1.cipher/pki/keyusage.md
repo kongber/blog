@@ -127,7 +127,7 @@ Reference: GMT-0015-2012 基于SM2密码算法的数字证书格式规范.pdf
 * 密钥用途 (Key Usage):
     * 数字签名 (Digital Signature): 必须选择。客户端使用其私钥对TLS握手消息进行数字签名，以向服务器证明其身份。
     * 密钥协商 (Key Agreement): 必须选择。在SM2密钥交换过程中，客户端证书的公钥参与生成会话密钥。
-    * 加密密钥 (Key Encipherment): 在某些特定的密钥交换模式中，客户端的公钥可能需要用于加密数据，可以考虑选择，但不如 Key Agreement 常用。通常，Key Agreement 就足以覆盖密钥交换的需求。( RSA 算法需要 )
+    * 加密密钥 (Key Encipherment): 在某些特定的密钥交换模式中，客户端的公钥可能需要用于加密数据，可以考虑选择，但不如 Key Agreement 常用。通常，Key Agreement 就足以覆盖密钥交换的需求。RSA 算法，ECC 算法不需要该 Usage。
 * 扩展密钥用途 (Extended Key Usage):
     * 客户端认证 (Client Authentication) (OID: 1.3.6.1.5.5.7.3.2): 必须选择。明确表明证书的用途是客户端身份认证。
 
