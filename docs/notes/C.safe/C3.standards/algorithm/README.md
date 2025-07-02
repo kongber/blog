@@ -1,5 +1,5 @@
 ---
-title: README
+title: 密码标准
 createTime: 2025/04/23 15:43:54
 permalink: /notes/se/isqh564c/
 ---
@@ -113,11 +113,30 @@ permalink: /notes/se/isqh564c/
 
 
 ## 2 证书标准
+### 2.1 国家标准
+| **标准编号**| **标准名称**|
+| :------ | :------ |
+| [GB/T 20518—2018](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=F7B410A1B0C06206E5FFB0FBFEE82C75) | 信息安全技术 公钥基础设施 数字证书格式 |
+| [GB/T 25056—2018](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=4BBDEAD7450084CD1AB9E2BEDE462C1E) | 信息安全技术 证书认证系统密码及其相关安全技术规范 |
+| [GB/T 21053—2023](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=2467B42B0BFB9B8E0F21D59CF33127EA) | 信息安全技术 公钥基础设施 PKI系统安全技术要求 |
+| [GB/T 21054—2023](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=47626776D134B84510FA5C0C932A236A) | 信息安全技术 公钥基础设施 PKI系统安全测评方法 |
+| [GB/T 19713—2005](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=589CC134203116E4C60016B279937A4F) | 信息技术 安全技术 公钥基础设施 在线证书状态协议 |
+| [GB/T 19714—2005](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=B47DAB0CD7D3CFC3B88B79F67D7B3F65) | 信息技术 安全技术 公钥基础设施 证书管理协议 |
+| [GB/T 20520—2006](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=D7A78565FC031B07389DCC44343A1727) | 信息安全技术 公钥基础设施 时间戳规范 |
+| [GB/T 26855—2011](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=EC812F9D657541E05AB35C32A052DB82) | 信息安全技术 公钥基础设施 证书策略与认证业务声明框架 |
+| [GB/T 29243—2012](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=C0D6A51832EC3C515A70CD4F9DF7E640) | 信息安全技术 数字证书代理认证路径构造和代理验证规范 |
+| [GB/T 29767—2013](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=30B44B87C249360B728B1489653246FB) | 信息安全技术 公钥基础设施 桥CA体系证书分级规范 |
+| [GB/T 31508—2015](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=B89B3301E05B6EDEFF4BC5B48E3C687C) | 信息安全技术 公钥基础设施 数字证书策略分类分级规范 |
+| [GB/T 35285—2017](https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=DBD0B925C417DE09B1028AB080647BA1) | 信息安全技术 公钥基础设施 基于数字证书的可靠电子签名生成及验证技术要求 |
 
-### 2.1 证书标准
-| 标准编号 | 标准名称 |
-| -------- | -------- |
-| 1 | 2 | 
+### 2.2 国际标准
+| **标准编号**| **标准名称**|
+| :------ | :------ |
+| RFC 5280 | Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile |
+| RFC 6960 | X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP |
+| RFC 6961 | The Transport Layer Security (TLS) Multiple Certificate Status Request Extension |
+| RFC 7030 | Enrollment over Secure Transport |
+| RFC 5272 | Certificate Management over CMS (CMC) |
 
 
 ## 参考资料

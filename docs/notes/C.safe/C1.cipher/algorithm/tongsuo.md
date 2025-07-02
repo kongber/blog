@@ -1,9 +1,10 @@
 ---
-title: tongsuo
+title: Tongsuo
 createTime: 2025/04/30 15:55:46
 permalink: /article/3a658ak4/
 ---
-https://github.com/Tongsuo-Project/Tongsuo
+
+项目地址: https://github.com/Tongsuo-Project/Tongsuo
 
 NTLS使用手册
 编译NTLS功能

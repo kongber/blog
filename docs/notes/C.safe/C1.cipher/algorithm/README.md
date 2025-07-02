@@ -61,6 +61,7 @@ permalink: /notes/se/rvej7qfs/
 - [量子密钥分发](./quantum/qkd.md)
 - [后量子密码](./quantum/post-quantum.md)
 
+
 ## 3. 应用密码学
 
 ### 3.1 密钥管理
@@ -123,6 +124,9 @@ permalink: /notes/se/rvej7qfs/
     - 密码策略
     - 访问策略
 
+### 3.6 前沿技术
+- [区块链](./blockchain.md)
+
 ## 4. 密码分析
 
 ### 4.1 攻击方法
@@ -136,7 +140,7 @@ permalink: /notes/se/rvej7qfs/
 - [安全证明](./security/proofs.md)
 - [标准与规范](./security/standards.md)
 
-## 5. 密码
+## 5. 密码库
 - [OpenSSL](./openssl.md)
 - [Tongsuo](./tongsuo.md)
 - [GMSSL](./gmssl.md)
