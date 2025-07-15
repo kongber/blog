@@ -14,3 +14,7 @@ permalink: /article/qffdkftn/
 - 每个区块都有一个唯一的哈希值，哈希值由区块的前一个哈希值、交易记录和时间戳等因素计算得出。
 - 每个节点都可以验证其他节点的交易记录是否合法，通过验证哈希值来判断。
 - 因为每个节点都有一份完整的账本副本，所以区块链是去中心化的，没有中心化的 authority。
+
+
+## 参考资料
+https://yeasy.gitbook.io/blockchain_guide
