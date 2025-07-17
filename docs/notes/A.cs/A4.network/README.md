@@ -58,6 +58,11 @@
 * ARP: Address Resolution Protocol, 地址解析协议, 用于将 IP 地址转换为 MAC 地址。
 * RARP: Reverse Address Resolution Protocol, 反向地址解析协议, 用于将 MAC 地址转换为 IP 地址。
 
+#### 2.2.1 DHCP 服务应用
+
+一个 DHCP 服务器
+
+
 ### 2.3 TCP 与 UDP 协议对比
 
 | 特性        | TCP                          | UDP                          |
