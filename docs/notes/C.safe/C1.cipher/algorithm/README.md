@@ -31,8 +31,8 @@ permalink: /notes/se/rvej7qfs/
 - [DH密钥交换](./asymmetric/dh.md)
 - [ElGamal加密](./asymmetric/elgamal.md)
 
-- [SM2](./asymmetric/sm2.md)
-- [SM9](./asymmetric/sm9.md)
+- [SM2](./sm2.md)
+- [SM9](./sm9.md)
 
 ### 1.5 哈希函数
 - [MD5](./md5.md)
