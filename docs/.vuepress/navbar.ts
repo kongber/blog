@@ -12,44 +12,47 @@ export const navbar = defineNavbarConfig([
     ]
   },
   {
-    text: '软件工程',
+    text: '系统分析',
     items: [
       {
-        text: '开发方法',
+        text: '总览',
         items: [
-          { text: '开发模型', link: '/notes/B.se/B1.development/mode/' },
-          { text: '编码规范', link: '/notes/B.se/B1.development/standard/' }, 
+          { text: '考前总览', link: '/notes/B.sa/' },
+          { text: '高频计算题', link: '/notes/B.sa/B18.calc/' },
         ]
       },
       {
-        text: '软件需求',
+        text: '分析与设计',
         items: [
-          { text: '需求开发', link: '/notes/B.se/B2.demand/dev/' },
-          { text: '需求管理', link: '/notes/B.se/B2.demand/manage/' } 
+          { text: '系统规划', link: '/notes/B.sa/B1.planning/' },
+          { text: '需求工程', link: '/notes/B.sa/B2.requirement/' },
+          { text: '系统设计', link: '/notes/B.sa/B3.design/' },
+          { text: '软件工程', link: '/notes/B.sa/B4.engineering/' },
+          { text: '架构设计', link: '/notes/B.sa/B5.architecture/' },
         ]
       },
       {
-        text: '软件设计',
+        text: '质量与项目',
         items: [
-          { text: '架构设计', link: '/notes/B.se/B3.design/architecture/' },
-          { text: '设计模式', link: '/notes/B.se/B3.design/mode/' },
-          { text: '界面设计', link: '/notes/B.se/B3.design/ui/' },
-          { text: '安全设计', link: '/notes/B.se/B3.design/safe/' },
-          { text: '性能设计', link: '/notes/B.se/B3.design/perform/' },
+          { text: '软件测试', link: '/notes/B.sa/B6.testing/' },
+          { text: '运行维护', link: '/notes/B.sa/B7.maintenance/' },
+          { text: '系统可靠性', link: '/notes/B.sa/B8.reliability/' },
+          { text: '项目管理', link: '/notes/B.sa/B9.project/' },
         ]
       },
       {
-        text: '软件测试',
+        text: '综合知识',
         items: [
-          { text: '软件测试', link: '/notes/B.se/B4.testing/' },
+          { text: '企业信息化', link: '/notes/B.sa/B10.enterprise/' },
+          { text: '组成原理', link: '/notes/B.sa/B11.computer/' },
+          { text: '计算机网络', link: '/notes/B.sa/B12.network/' },
+          { text: '操作系统', link: '/notes/B.sa/B13.os/' },
+          { text: '数据库系统', link: '/notes/B.sa/B14.database/' },
+          { text: '信息安全', link: '/notes/B.sa/B15.security/' },
+          { text: '法律法规', link: '/notes/B.sa/B16.law/' },
+          { text: '嵌入式系统', link: '/notes/B.sa/B17.embedded/' },
         ]
       },
-      {
-        text: '软件维护',
-        items: [
-          { text: '开发模型', link: '/notes/B.se/B5.maintenance/mode/' }, 
-        ]
-      }
     ]
   },
   {
